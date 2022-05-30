@@ -23,7 +23,7 @@ public interface PersonDao {
         return insertPerson(id, person);
     }
 
-    //Methods toe implemented
+    //Methods to be implemented
     List<Person> selectAllPeople();
 
     int deletePersonById(UUID id);
