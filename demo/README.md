@@ -4,6 +4,7 @@ This project is a basic API implementation using Java Spring Boot with a local d
 
 Create a person object:
 POST: /api/v1/person
+
 Required JSON body fields: "name"
 Non-required JSON body fields: "ID"
 
