@@ -8,17 +8,23 @@ POST: /api/v1/person
 Required JSON body fields: "name"
 Non-required JSON body fields: "ID"
 
+
 Read all people objects:
 GET: /api/v1/person
 
+
 Read person object with unique ID:
 GET: /api/v1/person/ID
+
+
 
 Update person object with unique ID:
 UPDATE: /api/v1/person/ID
 
 Required JSON body fields: "name"
 Non-required JSON body fields: "ID"
+
+
 
 Delete person object with unique ID:
 DELETE: /api/v1/person/ID
